@@ -7,15 +7,30 @@ body{
     text-transform:lowercase;
 }
 
+h2{
+    font-size: 42px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 21px;
+    color:gray;
+}
+
 .capitalize{
     text-transform: capitalize;
 }
 
+footer{
+    text-align:right;
+}
 
 /*header rules*/
 
 header{
     font-size: 50px;
+    font-weight: normal;
+    margin: 10px;
     
     
 }
@@ -23,4 +38,14 @@ header{
 a{
     font-size: 16px;
     color: aquamarine;
+}
+
+/* travel rules */
+
+.travel h3{
+    color: gray;
+}
+
+.soon{
+    margin-top: 20px;
 }
